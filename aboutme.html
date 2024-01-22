@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Personal Website</title>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="navbar">
+      <img src="webicons/logo.png" class="logo">
+      <nav>
+        <ul id="menuList">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <img src="webicons/menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+         <h1>Über mich:</h1>
+         <h2>Hey, ich weiß selbst nach fast zwei Jahrzehnten auf diesem Planeten nicht genau, was ich über mich schreiben soll in solchen „Über Mich“s. Aber ich versuche es mal. :)</h2>
+         <p>‎ </p>
+          <h2>Also ich interessiere mich sehr für alles rund um Computer. Ich nutze Linux und lerne gerade programmieren. Abseits vom Computer gehe, treff ich mich gerne mit Freunden und ich höre sehr viel Musik. In letzter Zeit höre ich überwiegend Techno, daher gehe ich auch mega gerne regelmäßig in Technoclubs. </h2>
+          <p>‎ </p>
+          <h2>Zu guter Letzt. Ich liebe Katzen und habe sogar zwei von diesen Spinnern.</h2>
+
+          <ul id="aboutmelinks">
+            <li><a href="aboutme/cats.html">Meine Katzen</a></li>
+            <li><a href="aboutme/linux.html">Meine Linux Distro</a></li>
+            <li><a href="aboutme/techno.html">Top 10 Techno Lieder</a></li>
+          </ul>
+      </div>
+      <div class="col-2">
+        <img src="webicons/foto.png" class="fotovonmir">
+      </div>
+     </div>
+
+     <div class="socialmedia">
+        <a href="https://feddit.de/u/mawacode"><img src="webicons/lemmy.png"></a>
+        <a href=""><img src="webicons/mastodon.png"></a>
+     </div>
+
+  </div>
+
+    <script>
+      
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu(){
+
+        if(menuList.style.maxHeight == "0px")
+          {
+            menuList.style.maxHeight = "130px";
+          }
+        else
+          {
+            menuList.style.maxHeight = "0px";
+          }
+
+      }
+
+    </script>
+
+</body>
+
+</html>

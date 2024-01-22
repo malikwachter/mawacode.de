@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Personal Website</title>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="navbar">
+      <img src="webicons/logo.png" class="logo">
+      <nav>
+        <ul id="menuList">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <img src="webicons/menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+         <h1>Hallo Internet!</h1>
+         <h2>Ich bin Malik, irgend so ein Typ im Web, der gerade Programmieren lernt.</h2>
+         <p>‎ </p>
+         <h2>Willkommen auf meiner persönlichen Webseite. Hier erfährst du mehr über mich und meine Projekte! Danke fürs Vorbeischauen. :)</h2>
+      </div>
+      <div class="col-2">
+        <img src="webicons/foto.png" class="fotovonmir">
+      </div>
+     </div>
+
+     <div class="socialmedia">
+        <a href="https://feddit.de/u/mawacode"><img src="webicons/lemmy.png"></a>
+        <a href=""><img src="webicons/mastodon.png"></a>
+     </div>
+
+  </div>
+
+    <script>
+      
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu(){
+
+        if(menuList.style.maxHeight == "0px")
+          {
+            menuList.style.maxHeight = "130px";
+          }
+        else
+          {
+            menuList.style.maxHeight = "0px";
+          }
+
+      }
+
+    </script>
+
+</body>
+
+</html>

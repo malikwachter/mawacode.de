@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: rgb(56,56,56);
+    background: linear-gradient(117deg, rgba(56,56,56,1) 0%, rgba(130,130,130,1) 100%); 
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    margin: 30px 0;
+    background-color: #e2de84;
+    box-shadow: 5px 5px 5px;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    display: none;
+    background-color: #e2de84;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #e2de84;
+    box-shadow: 5px 5px 5px black;
+}
+
+nav ul li a:hover{
+    color: #ecfeaa;
+    cursor: pointer;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: #222222;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1{
+    flex-basis: 80%;
+    position: relative;
+    margin-left: 50px;
+    background-color: #e2de84;
+    padding: 2%;
+    box-shadow: 10px 10px 10px;
+}
+
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .fotovonmir{
+    width: 40%;
+    box-shadow: 10px 10px 10px;
+    transform: translateX(300px);
+}
+
+.socialmedia img{
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #e2de84;
+    padding: 0.5%;
+    box-shadow: 5px 5px 5px;
+}
+
+.socialmedia{
+    text-align: center;
+}
+
+.socialmedia a{
+    color: black;
+}
+
+#aboutmelinks{
+    margin-top: 10px;
+}
+
+#aboutmelinks li{
+    list-style: none;
+    display: inline-block;
+}
+
+#aboutmelinks li a{
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #e0d94c;
+    box-shadow: 5px 5px 5px black;
+}
+
+#aboutmelinks li a:hover{
+    color: #ecfeaa;
+    cursor: pointer;
+}
+
+#catpics img{
+    width: 100%;
+    margin: 20px;
+    box-shadow: 10px 10px 10px;
+}
+
+.technolist li{
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #e0d94c;
+    box-shadow: 5px 5px 5px black;
+    list-style: none;
+}
+
+@media only screen and (max-width:900px){
+
+    nav ul {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        background-color: #e2de84;
+        box-shadow: 10px 10px 10px;
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+
+    nav ul li a{
+        box-shadow: 0 0 0;  
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .row{
+        flex-direction: column;
+        margin: 50px 0
+    }
+
+    .col-2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .col-2 .fotovonmir{
+        width: 77%;
+
+        transform: translateX(0px);
+    }
+
+    .col-1{
+        flex-basis: 100%;
+    }
+}
