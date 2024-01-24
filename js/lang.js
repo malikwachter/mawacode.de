@@ -1,3 +1,28 @@
+var isGermanTemp = localStorage.getItem('isGerman')
+var isGerman;
+
+if(isGermanTemp=''){
+    isGerman=false;
+}
+else{
+    isGerman=true;
+}
+
+function langChange() {
+        
+    if(isGerman==false){
+        isGerman=true;
+        localStorage.setItem("isGerman", isGerman);
+
+    }
+    else{
+        isGerman=false;
+        localStorage.setItem("isGerman", isGerman);
+
+    }
+
+    location.reload(true);
+};
 
 var language = {
     eng: {
@@ -10,20 +35,18 @@ var language = {
     }
 };
 
-if(window.location.hash) {
-    if(window.location.hash === "#ger") {
-        welcome.textContent = language.ger.welcome;
-    }
+if(isGerman==true) {
+    welcometitle.textContent = language.ger.welcometitle;
+    welcome.textContent = language.ger.welcome;
+}
+else{
+    welcometitle.textContent = language.eng.welcometitle;
+    welcome.textContent = language.eng.welcome;
 }
 
-    function langReload() {
-        if(localStorage)
-        
-        localStorage.setItem('Language') = ger
 
 
-        location.reload(true);
-    };
+    
 
 
 

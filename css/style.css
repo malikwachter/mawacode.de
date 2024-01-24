@@ -67,8 +67,12 @@ nav ul li a:hover{
     background-color: #e2de84;
     box-shadow: 5px 5px 5px black;
     width: 2.5em;
-    margin-top: 28px;
+    margin-top: 24px;
     margin-left: 5px;
+}
+
+#lang:hover{
+    cursor: pointer;
 }
 
 h1{
@@ -204,7 +208,7 @@ h2{
 
     #lang{
         margin-left: 5px;
-        margin-bottom: 23px;
+        margin-bottom: 25px;
         width: 58px;
         transform: translateX(-60px);
     }
