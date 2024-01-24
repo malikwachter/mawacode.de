@@ -61,6 +61,16 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+#lang{
+    color: black;
+    padding: 5px;
+    background-color: #e2de84;
+    box-shadow: 5px 5px 5px black;
+    width: 2.5em;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
 h1{
     color: black;
 }
@@ -192,8 +202,16 @@ h2{
         box-shadow: 0 0 0;  
     }
 
+    #lang{
+        margin-left: 5px;
+        margin-bottom: 23px;
+        width: 58px;
+        transform: translateX(-60px);
+    }
+
     .menu-icon{
         display: block;
+        transform: translateX(70px);
     }
 
     #menuList{
