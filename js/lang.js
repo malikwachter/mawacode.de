@@ -1,6 +1,4 @@
 
-var dataReload = document.querySelectorAll("[data-reload]");
-
 var language = {
     eng: {
         welcometitle: "Hello Internet!",
@@ -18,10 +16,14 @@ if(window.location.hash) {
     }
 }
 
-for (i = 0; i <= dataReload.length; i++) {
-    dataReload[i].onclick = function() {
+    function langReload() {
+        if(localStorage)
+        
+        localStorage.setItem('Language') = ger
+
+
         location.reload(true);
     };
-}
+
 
 
