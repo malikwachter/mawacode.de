@@ -1,13 +1,3 @@
-var isGermanTemp = localStorage.getItem("isGerman")
-var isGerman;
-
-if(isGermanTemp!=''){
-    isGerman=isGermanTemp;
-}
-else{
-    isGerman=false;
-}
-
 var language = {
     eng: {
         welcometitle: "Hello Internet!",
@@ -19,7 +9,7 @@ var language = {
     }
 };
 
-
+var isGerman = localStorage.getItem("isGerman") === "true";
 
 if(isGerman===true) {
     welcometitle.textContent = language.ger.welcometitle;
@@ -32,20 +22,12 @@ else{
 
 
 function langChange() {
-        
-    if(isGerman==false){
-        isGerman=true;
-        localStorage.setItem("isGerman", isGerman);
-
-    }
-    else{
-        isGerman=false;
-        localStorage.setItem("isGerman", isGerman);
-
-    }
+    isGerman = !isGerman;
+    localStorage.setItem("isGerman", isGerman);
     console.log(localStorage.getItem("isGerman"));
     window.location.reload();
-};
+}
+
 
 
 
