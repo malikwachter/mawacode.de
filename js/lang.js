@@ -130,7 +130,7 @@ if(isGerman===true) {
     projectsnav.textContent = language.ger.projectsnav;
     contactnav.textContent = language.ger.contactnav;
     //index.html
-    if (window.location.href.indexOf("index") > -1) {
+    if (window.location.pathname == '/' || window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.ger.welcometitle;
         welcome1.textContent = language.ger.welcome1;
         welcome2.textContent = language.ger.welcome2;
@@ -204,7 +204,7 @@ else{
     projectsnav.textContent = language.eng.projectsnav;
     contactnav.textContent = language.eng.contactnav;
     //index.html
-    if (window.location.href.indexOf("index") > -1) {
+    if (window.location.pathname == '/' || window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.eng.welcometitle;
         welcome1.textContent = language.eng.welcome1;
         welcome2.textContent = language.eng.welcome2;
