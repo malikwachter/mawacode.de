@@ -15,19 +15,20 @@
       <img src="../webicons/logo.png" class="logo">
       <nav>
         <ul id="menuList">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../aboutme.html">About Me</a></li>
-          <li><a href="../projects.html">Projects</a></li>
-          <li><a href="../contactme.html">Contact Me</a></li>
+          <li><a href="../index.html" id="homenav"></a></li>
+          <li><a href="../aboutme.html" id="aboutmenav"></a></li>
+          <li><a href="../projects.html" id="projectsnav"></a></li>
+          <li><a href="../contactme.html" id="contactnav"></a></li>
         </ul>
       </nav>
       <img src="../webicons/menu.png" class="menu-icon" onclick="togglemenu()">
+      <img src="../webicons/ger.png" id="lang" onclick="langChange()">
     </div>
 
     <div class="row">
       <div class="col-1">
-         <h1>Meine Katzen!</h1>
-        <h2>Der weiße Kater heißt Percy und der Schwarzweiße heißt Mailo</h2>
+        <h1 id="catstitle"></h1>
+        <h2 id="cats"></h2>
       </div>
       <div class="col-2" id="catpics">
         <img src="catpics/catpic2.jpg">
@@ -63,6 +64,9 @@
       }
 
     </script>
+
+<script src="../js/lang.js"></script>
+
 
 </body>
 

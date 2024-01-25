@@ -36,6 +36,7 @@ var language = {
         linuxli5: "2022 June - Nobara",
         linuxli6: "Currently Fedora and Nobara",
         linux2: "Desktop: Nobara Linux",
+        linux2_2: "Laptop: Fedora Linux",
         linux3: "Distros I've only played around with once:",
         linuxli7: "Arch Linux",
         linuxli8: "Artix Linux",
@@ -96,6 +97,7 @@ var language = {
         linuxli5: "2022 Juni - Nobara",
         linuxli6: "Aktuell Fedora und Nobara",
         linux2: "Desktop: Nobara Linux",
+        linux2_2: "Laptop: Fedora Linux",
         linux3: "Distros mit dennen ich nurmal rumgespielt habe:",
         linuxli7: "Arch Linux",
         linuxli8: "Artix Linux",
@@ -136,7 +138,7 @@ if(isGerman===true) {
         welcome2.textContent = language.ger.welcome2;
     }
     //aboutme.html
-    else if(window.location.href.indexOf("aboutme") > -1) {
+    else if(window.location.href.indexOf("aboutme.html") > -1) {
         aboutmetitle.textContent = language.ger.aboutmetitle;
         aboutme1.textContent = language.ger.aboutme1;
         aboutme2.textContent = language.ger.aboutme2;
@@ -171,6 +173,7 @@ if(isGerman===true) {
         linuxli5.textContent = language.ger.linuxli5;
         linuxli6.textContent = language.ger.linuxli6;
         linux2.textContent = language.ger.linux2;
+        linux2_2.textContent = language.ger.linux2_2;
         linux3.textContent = language.ger.linux3;
         linuxli7.textContent = language.ger.linuxli7;
         linuxli8.textContent = language.ger.linuxli8;
@@ -210,7 +213,7 @@ else{
         welcome2.textContent = language.eng.welcome2;
     }
     //aboutme.html
-    else if(window.location.href.indexOf("aboutme") > -1) {
+    else if(window.location.href.indexOf("aboutme.html") > -1) {
         aboutmetitle.textContent = language.eng.aboutmetitle;
         aboutme1.textContent = language.eng.aboutme1;
         aboutme2.textContent = language.eng.aboutme2;
@@ -245,6 +248,7 @@ else{
         linuxli5.textContent = language.eng.linuxli5;
         linuxli6.textContent = language.eng.linuxli6;
         linux2.textContent = language.eng.linux2;
+        linux2_2.textContent = language.eng.linux2_2;
         linux3.textContent = language.eng.linux3;
         linuxli7.textContent = language.eng.linuxli7;
         linuxli8.textContent = language.eng.linuxli8;
