@@ -18,7 +18,7 @@ var language = {
         aboutmebutton2: "Linux",
         aboutmebutton3: "Top 10 Techno",
         //projects.html
-        projectstitle: "Comming Soon!",
+        projectstitle: "Coming Soon!",
         projects: "Nothing here yet. :)",
         //contactme.html
         contacttitle: "Contact",
