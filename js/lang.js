@@ -1,5 +1,10 @@
 var language = {
     eng: {
+        //nav
+        homenav: "Home",
+        aboutmenav: "About Me",
+        projectsnav: "Projects",
+        contactnav: "Contact me",
         //index.html
         welcometitle: "Hello Internet!",
         welcome1: "I'm Malik, some guy on the web who's learning to code.",
@@ -55,6 +60,11 @@ var language = {
         technoli10: "10. Atme Ein (Atme Rauch aus) | Butschi, Felix Jaehn, Fairy Mary"
     },
     ger: {
+        //nav
+        homenav: "Startseite",
+        aboutmenav: "Über Mich",
+        projectsnav: "Projekte",
+        contactnav: "Kontakt",
         //index.html
         welcometitle: "Hallo Internet!",
         welcome1: "Ich bin Malik, ein Typ aus dem Internet, der programmieren lernt.",
@@ -114,66 +124,93 @@ var language = {
 var isGerman = localStorage.getItem("isGerman") === "true";
 
 if(isGerman===true) {
+    //nav
+    homenav.textContent = language.ger.homenav;
+    aboutmenav.textContent = language.ger.aboutmenav;
+    projectsnav.textContent = language.ger.projectsnav;
+    contactnav.textContent = language.ger.contactnav;
     //index.html
-    welcometitle.textContent = language.ger.welcometitle;
-    welcome1.textContent = language.ger.welcome1;
-    welcome2.textContent = language.ger.welcome2;
+    if (window.location.href.indexOf("index") > -1) {
+        welcometitle.textContent = language.ger.welcometitle;
+        welcome1.textContent = language.ger.welcome1;
+        welcome2.textContent = language.ger.welcome2;
+    }
     //aboutme.html
-    aboutmetitle.textContent = language.ger.aboutmetitle;
-    aboutme1.textContent = language.ger.aboutme1;
-    aboutme2.textContent = language.ger.aboutme2;
-    aboutme3.textContent = language.ger.aboutme3;
-    aboutmebutton1.textContent = language.ger.aboutmebutton1;
-    aboutmebutton2.textContent = language.ger.aboutmebutton2;
-    aboutmebutton3.textContent = language.ger.aboutmebutton3;
+    else if(window.location.href.indexOf("aboutme") > -1) {
+        aboutmetitle.textContent = language.ger.aboutmetitle;
+        aboutme1.textContent = language.ger.aboutme1;
+        aboutme2.textContent = language.ger.aboutme2;
+        aboutme3.textContent = language.ger.aboutme3;
+        aboutmebutton1.textContent = language.ger.aboutmebutton1;
+        aboutmebutton2.textContent = language.ger.aboutmebutton2;
+        aboutmebutton3.textContent = language.ger.aboutmebutton3;
+    }
     //projects.html
-    projectstitle.textContent = language.ger.projectstitle;
-    projects.textContent = language.ger.projects;
+    else if(window.location.href.indexOf("projects") > -1) {
+        projectstitle.textContent = language.ger.projectstitle;
+        projects.textContent = language.ger.projects;
+    }
     //contactme.html
-    contacttitle.textContent = language.ger.contacttitle;
-    contact.textContent = language.ger.contact;
+    else if(window.location.href.indexOf("contactme") > -1) {
+        contacttitle.textContent = language.ger.contacttitle;
+        contact.textContent = language.ger.contact;
+    }
     //aboutme/cats.html
-    catstitle.textContent = language.ger.catstitle;
-    cats.textContent = language.ger.cats;
+    else if(window.location.href.indexOf("cats") > -1) {
+        catstitle.textContent = language.ger.catstitle;
+        cats.textContent = language.ger.cats;
+    }
     //aboutme/linux.html
-    linuxtitle.textContent = language.ger.linuxtitle;
-    linux1.textContent = language.ger.linux1;
-    linuxli1.textContent = language.ger.linuxli1;
-    linuxli2.textContent = language.ger.linuxli2;
-    linuxli3.textContent = language.ger.linuxli3;
-    linuxli4.textContent = language.ger.linuxli4;
-    linuxli5.textContent = language.ger.linuxli5;
-    linuxli6.textContent = language.ger.linuxli6;
-    linux2.textContent = language.ger.linux2;
-    linux3.textContent = language.ger.linux3;
-    linuxli7.textContent = language.ger.linuxli7;
-    linuxli8.textContent = language.ger.linuxli8;
-    linuxli9.textContent = language.ger.linuxli9;
-    linuxli10.textContent = language.ger.linuxli10;
-    linux4.textContent = language.ger.linux4;
-    linuxli11.textContent = language.ger.linuxli11;
-    linuxli12.textContent = language.ger.linuxli12;
-    linuxli13.textContent = language.ger.linuxli13;
+    else if(window.location.href.indexOf("linux") > -1) {
+        linuxtitle.textContent = language.ger.linuxtitle;
+        linux1.textContent = language.ger.linux1;
+        linuxli1.textContent = language.ger.linuxli1;
+        linuxli2.textContent = language.ger.linuxli2;
+        linuxli3.textContent = language.ger.linuxli3;
+        linuxli4.textContent = language.ger.linuxli4;
+        linuxli5.textContent = language.ger.linuxli5;
+        linuxli6.textContent = language.ger.linuxli6;
+        linux2.textContent = language.ger.linux2;
+        linux3.textContent = language.ger.linux3;
+        linuxli7.textContent = language.ger.linuxli7;
+        linuxli8.textContent = language.ger.linuxli8;
+        linuxli9.textContent = language.ger.linuxli9;
+        linuxli10.textContent = language.ger.linuxli10;
+        linux4.textContent = language.ger.linux4;
+        linuxli11.textContent = language.ger.linuxli11;
+        linuxli12.textContent = language.ger.linuxli12;
+        linuxli13.textContent = language.ger.linuxli13;
+    }
     //aboutme/techno.html
-    technotitle.textContent = language.ger.technotitle;
-    techno.textContent = language.ger.techno;
-    technoli1.textContent = language.ger.technoli1;
-    technoli2.textContent = language.ger.technoli2;
-    technoli3.textContent = language.ger.technoli3;
-    technoli4.textContent = language.ger.technoli4;
-    technoli5.textContent = language.ger.technoli5;
-    technoli6.textContent = language.ger.technoli6;
-    technoli7.textContent = language.ger.technoli7;
-    technoli8.textContent = language.ger.technoli8;
-    technoli9.textContent = language.ger.technoli9;
-    technoli10.textContent = language.ger.technoli10;
+    else if(window.location.href.indexOf("techno") > -1) {
+        technotitle.textContent = language.ger.technotitle;
+        techno.textContent = language.ger.techno;
+        technoli1.textContent = language.ger.technoli1;
+        technoli2.textContent = language.ger.technoli2;
+        technoli3.textContent = language.ger.technoli3;
+        technoli4.textContent = language.ger.technoli4;
+        technoli5.textContent = language.ger.technoli5;
+        technoli6.textContent = language.ger.technoli6;
+        technoli7.textContent = language.ger.technoli7;
+        technoli8.textContent = language.ger.technoli8;
+        technoli9.textContent = language.ger.technoli9;
+        technoli10.textContent = language.ger.technoli10;
+    }
 }
 else{
-        //index.html
+    //nav
+    homenav.textContent = language.eng.homenav;
+    aboutmenav.textContent = language.eng.aboutmenav;
+    projectsnav.textContent = language.eng.projectsnav;
+    contactnav.textContent = language.eng.contactnav;
+    //index.html
+    if (window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.eng.welcometitle;
         welcome1.textContent = language.eng.welcome1;
         welcome2.textContent = language.eng.welcome2;
-        //aboutme.html
+    }
+    //aboutme.html
+    else if(window.location.href.indexOf("aboutme") > -1) {
         aboutmetitle.textContent = language.eng.aboutmetitle;
         aboutme1.textContent = language.eng.aboutme1;
         aboutme2.textContent = language.eng.aboutme2;
@@ -181,16 +218,24 @@ else{
         aboutmebutton1.textContent = language.eng.aboutmebutton1;
         aboutmebutton2.textContent = language.eng.aboutmebutton2;
         aboutmebutton3.textContent = language.eng.aboutmebutton3;
-        //projects.html
+    }
+    //projects.html
+    else if(window.location.href.indexOf("projects") > -1) {
         projectstitle.textContent = language.eng.projectstitle;
         projects.textContent = language.eng.projects;
-        //contactme.html
+    }
+    //contactme.html
+    else if(window.location.href.indexOf("contactme") > -1) {
         contacttitle.textContent = language.eng.contacttitle;
         contact.textContent = language.eng.contact;
-        //aboutme/cats.html
+    }
+    //aboutme/cats.html
+    else if(window.location.href.indexOf("cats") > -1) {
         catstitle.textContent = language.eng.catstitle;
         cats.textContent = language.eng.cats;
-        //aboutme/linux.html
+    }
+    //aboutme/linux.html
+    else if(window.location.href.indexOf("linux") > -1) {
         linuxtitle.textContent = language.eng.linuxtitle;
         linux1.textContent = language.eng.linux1;
         linuxli1.textContent = language.eng.linuxli1;
@@ -209,7 +254,9 @@ else{
         linuxli11.textContent = language.eng.linuxli11;
         linuxli12.textContent = language.eng.linuxli12;
         linuxli13.textContent = language.eng.linuxli13;
-        //aboutme/techno.html
+    }
+    //aboutme/techno.html
+    else if(window.location.href.indexOf("techno") > -1) {
         technotitle.textContent = language.eng.technotitle;
         techno.textContent = language.eng.techno;
         technoli1.textContent = language.eng.technoli1;
@@ -222,6 +269,7 @@ else{
         technoli8.textContent = language.eng.technoli8;
         technoli9.textContent = language.eng.technoli9;
         technoli10.textContent = language.eng.technoli10;
+    }
 }
 
 
