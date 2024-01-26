@@ -1,10 +1,12 @@
 var language = {
+    //All english strings:
     eng: {
         //nav
         homenav: "Home",
         aboutmenav: "About Me",
         projectsnav: "Projects",
         contactnav: "Contact me",
+        lang: "Language",
         //index.html
         welcometitle: "Hello Internet!",
         welcome1: "I'm Malik, some guy on the web who's learning to code.",
@@ -60,12 +62,14 @@ var language = {
         technoli9: "9. NUR MEIN KÖRPER UND DIE ANGST | Brutalismus 3000",
         technoli10: "10. Atme Ein (Atme Rauch aus) | Butschi, Felix Jaehn, Fairy Mary"
     },
+    //All german strings:
     ger: {
         //nav
         homenav: "Startseite",
         aboutmenav: "Über Mich",
         projectsnav: "Projekte",
         contactnav: "Kontakt",
+        lang: "Sprache",
         //index.html
         welcometitle: "Hallo Internet!",
         welcome1: "Ich bin Malik, ein Typ aus dem Internet, der programmieren lernt.",
@@ -123,14 +127,17 @@ var language = {
     }
 };
 
+//get isGerman state from localStorage
 var isGerman = localStorage.getItem("isGerman") === "true";
 
+//inserting the german strings:
 if(isGerman===true) {
     //nav
     homenav.textContent = language.ger.homenav;
     aboutmenav.textContent = language.ger.aboutmenav;
     projectsnav.textContent = language.ger.projectsnav;
     contactnav.textContent = language.ger.contactnav;
+    lang.textContent = language.ger.lang;
     //index.html
     if (window.location.pathname == '/' || window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.ger.welcometitle;
@@ -200,12 +207,14 @@ if(isGerman===true) {
         technoli10.textContent = language.ger.technoli10;
     }
 }
+//inserting the english strings:
 else{
     //nav
     homenav.textContent = language.eng.homenav;
     aboutmenav.textContent = language.eng.aboutmenav;
     projectsnav.textContent = language.eng.projectsnav;
     contactnav.textContent = language.eng.contactnav;
+    lang.textContent = language.eng.lang;
     //index.html
     if (window.location.pathname == '/' || window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.eng.welcometitle;
@@ -277,18 +286,12 @@ else{
 }
 
 
+
+//invert isGerman bool on click of language button
 function langChange() {
     isGerman = !isGerman;
     localStorage.setItem("isGerman", isGerman);
-    console.log(localStorage.getItem("isGerman"));
+    console.log(isGerman);
     window.location.reload();
 }
-
-
-
-
-
-    
-
-
 
