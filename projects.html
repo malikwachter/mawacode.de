@@ -15,10 +15,11 @@
       <img src="webicons/logo.png" class="logo">
       <nav>
         <ul id="menuList">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contactme.html">Contact Me</a></li>
+          <li><a href="index.html" id="homenav"></a></li>
+          <li><a href="aboutme.html" id="aboutmenav"></a></li>
+          <li><a href="projects.html" id="projectsnav"></a></li>
+          <li><a href="contactme.html" id="contactnav"></a></li>
+          <li><a onclick="langChange()" id="lang"></a></li>
         </ul>
       </nav>
       <img src="webicons/menu.png" class="menu-icon" onclick="togglemenu()">
@@ -26,8 +27,8 @@
 
     <div class="row">
       <div class="col-1">
-         <h1>Kommt bald!</h1>
-         <h2>Noch ist hier nichts. :)</h2>
+         <h1 id="projectstitle"></h1>
+         <h2 id="projects"></h2>
       </div>
       <div class="col-2">
         <img src="webicons/foto.png" class="fotovonmir">
@@ -35,33 +36,15 @@
      </div>
 
      <div class="socialmedia">
-      <a href="https://feddit.de/u/mawacode"><img src="../webicons/lemmy.png"></a>
-      <a rel="me" href="https://hessen.social/@mawacode"><img src="../webicons/mastodon.png"></a>
-      <a href="https://github.com/malikwachter"><img src="../webicons/GitHub.png"></a>
+      <a href="https://feddit.de/u/mawacode"><img src="webicons/lemmy.png"></a>
+      <a rel="me" href="https://hessen.social/@mawacode"><img src="webicons/mastodon.png"></a>
+      <a href="https://github.com/malikwachter"><img src="webicons/GitHub.png"></a>
      </div>
 
   </div>
 
-    <script>
-      
-      var menuList = document.getElementById("menuList");
 
-      menuList.style.maxHeight = "0px";
-
-      function togglemenu(){
-
-        if(menuList.style.maxHeight == "0px")
-          {
-            menuList.style.maxHeight = "130px";
-          }
-        else
-          {
-            menuList.style.maxHeight = "0px";
-          }
-
-      }
-
-    </script>
+    <script src="js/lang.js"></script>
 
 </body>
 

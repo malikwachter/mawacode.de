@@ -15,10 +15,11 @@
       <img src="../webicons/logo.png" class="logo">
       <nav>
         <ul id="menuList">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../aboutme.html">About Me</a></li>
-          <li><a href="../projects.html">Projects</a></li>
-          <li><a href="../contactme.html">Contact Me</a></li>
+          <li><a href="../index.html" id="homenav"></a></li>
+          <li><a href="../aboutme.html" id="aboutmenav"></a></li>
+          <li><a href="../projects.html" id="projectsnav"></a></li>
+          <li><a href="../contactme.html" id="contactnav"></a></li>
+          <li><a onclick="langChange()" id="lang"></a></li>
         </ul>
       </nav>
       <img src="../webicons/menu.png" class="menu-icon" onclick="togglemenu()">
@@ -26,35 +27,35 @@
 
     <div class="row">
       <div class="col-1">
-         <h1>Linux</h1>
+         <h1 id="linuxtitle"></h1>
 
-         <h2>Meine Linux distrohop Geschichte:</h2>
+         <h2 id="linux1"></h2>
          <ul class="technolist">
-          <li>2021 Januar - Linux Mint</li>
-          <li>2021 Juni - Kubuntu</li>
-          <li>2021 Juli - KDE Neon</li>
-          <li>2022 Februar - Fedora</li>
-          <li>2022 Juni - Nobara</li>
-          <li>Aktuell Fedora und Nobara</li>
+          <li id="linuxli1"></li>
+          <li id="linuxli2"></li>
+          <li id="linuxli3"></li>
+          <li id="linuxli4"></li>
+          <li id="linuxli5"></li>
+          <li id="linuxli6"></li>
          </ul>
          <p>‎ </p>
-         <h2>Desktop: Nobara Linux</h2>
+         <h2 id="linux2"></h2>
          <img src="../pics/linuxdesktop.png" class="neofetch">
-         <h2>Laptop: Fedora Linux</h2>
+         <h2 id="linux2_2"></h2>
          <img src="../pics/linuxlaptop.png" class="neofetch">
          <p>‎ </p>
-         <h2>Distros mit dennen ich nurmal rumgespielt habe:</h2>
+         <h2 id="linux3"></h2>
          <ul class="technolist">
-          <li>Arch Linux</li>
-          <li>Artix Linux</li>
-          <li>AntiX</li>
-          <li>TailsOS</li>
+          <li id="linuxli7"></li>
+          <li id="linuxli8"></li>
+          <li id="linuxli9"></li>
+          <li id="linuxli10"></li>
          </ul>
-         <h2>Weitere Linux Geräte in meinem Besitz:</h2>
+         <h2 id="linux4"></h2>
          <ul class="technolist">
-          <li>Raspberry Pi - Rasberry Pi OS</li>
-          <li>Steam Deck - SteamOS</li>
-          <li>Fairphone 3+ - iodéOS</li>
+          <li id="linuxli11"></li>
+          <li id="linuxli12"></li>
+          <li id="linuxli13"></li>
          </ul>
       </div>
       <div class="col-2">
@@ -69,26 +70,9 @@
 
   </div>
 
-    <script>
-      
-      var menuList = document.getElementById("menuList");
 
-      menuList.style.maxHeight = "0px";
+<script src="../js/lang.js"></script>
 
-      function togglemenu(){
-
-        if(menuList.style.maxHeight == "0px")
-          {
-            menuList.style.maxHeight = "130px";
-          }
-        else
-          {
-            menuList.style.maxHeight = "0px";
-          }
-
-      }
-
-    </script>
 
 </body>
 
