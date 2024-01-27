@@ -6,7 +6,7 @@ var language = {
         aboutmenav: "About Me",
         projectsnav: "Projects",
         contactnav: "Contact me",
-        lang: "Language",
+        lang: "Switch to German",
         //index.html
         welcometitle: "Hello Internet!",
         welcome1: "I'm Malik, some guy on the web who's learning to code.",
@@ -69,7 +69,7 @@ var language = {
         aboutmenav: "Über Mich",
         projectsnav: "Projekte",
         contactnav: "Kontakt",
-        lang: "Sprache",
+        lang: "Wechseln zu Englisch",
         //index.html
         welcometitle: "Hallo Internet!",
         welcome1: "Ich bin Malik, ein Typ aus dem Internet, der programmieren lernt.",
@@ -295,3 +295,21 @@ function langChange() {
     window.location.reload();
 }
 
+
+//menu Script
+var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+
+function togglemenu(){
+
+  if(menuList.style.maxHeight == "0px")
+    {
+      menuList.style.maxHeight = "200px";
+    }
+  else
+    {
+      menuList.style.maxHeight = "0px";
+    }
+
+}
