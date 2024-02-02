@@ -14,7 +14,7 @@ var language = {
         //aboutme.html
         aboutmetitle: "About me:",
         aboutme1: "Hey, even after almost two decades on this planet I don't know exactly what to write about myself in these 'About Me's. But I'll give it a try. :)",
-        aboutme2: "So I'm very interested in everything to do with computers. I use Linux and am currently learning to program. Away from the computer, I like to meet up with friends and listen to a lot of music. Lately I've been listening mainly to techno lately, which is why I also go to techno clubs regularly. ",
+        aboutme2: "So I'm very interested in everything that has to do with computers. I use Linux and am currently learning to code. Away from the computer, I like to meet up with friends and listen to a lot of music. Lately I've been listening mainly to techno",
         aboutme3: "Last but not least. I love cats and even have two of these weirdos.",
         aboutmebutton1: "Cats",
         aboutmebutton2: "Linux",
@@ -77,7 +77,7 @@ var language = {
         //aboutme.html
         aboutmetitle: "Über mich:",
         aboutme1: "Hey, selbst nach fast zwei Jahrzehnten auf diesem Planeten weiß ich nicht genau, was ich in diesen 'Über mich's überhaupt schreiben soll. Aber ich werde es versuchen :)",
-        aboutme2: "Ich interessiere mich also sehr für alles, was mit Computern zu tun hat. Ich benutze Linux und lerne gerade programmieren. Abseits des Computers treffe ich mich gerne mit Freunden und höre viel Musik. In letzter Zeit höre ich vor allem Techno, deshalb gehe ich auch regelmäßig in Techno-Clubs.",
+        aboutme2: "Ich interessiere mich also sehr für alles, was mit Computern zu tun hat. Ich benutze Linux und lerne gerade programmieren. Abseits des Computers treffe ich mich gerne mit Freunden und höre viel Musik. In letzter Zeit höre ich vor allem Techno",
         aboutme3: "Zu guter Letzt, Ich liebe Katzen und habe sogar zwei von diesen Spinnern.",
         aboutmebutton1: "Katzen",
         aboutmebutton2: "Linux",
