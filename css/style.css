@@ -24,12 +24,15 @@
     align-items: center;
     background-color: #e2de84;
     box-shadow: 5px 5px 5px;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .logo {
     width: 180px;
+    margin-top: 3em;
     margin-left: 8%;
+    position: absolute;
+    transform: rotate(-5deg);
 }
 
 .menu-icon{
@@ -70,7 +73,7 @@ nav ul li a:hover{
 }
 
 #menuList{
-    margin-top: -1%;
+    margin-top: -1em;
 }
 
 h1{
@@ -219,6 +222,9 @@ h2{
 
     .logo{
         margin-left: 4%;
+        width: 150px;
+        margin-top: 1em;
+        z-index: 3;
     }
 
     .row{
