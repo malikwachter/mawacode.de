@@ -100,6 +100,7 @@ h2{
     background-color: #e2de84;
     padding: 2%;
     box-shadow: 10px 10px 10px;
+    z-index: 2;
 }
 
 .col-2{
@@ -264,13 +265,14 @@ table tr td{
     #menuList{
         overflow: hidden;
         transition: 0.5s;
+        z-index: 3;
     }
 
     .logo{
         margin-left: 4%;
         width: 150px;
         margin-top: 1em;
-        z-index: 3;
+        z-index: 4;
     }
 
     .row{
