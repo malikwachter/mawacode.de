@@ -8,17 +8,30 @@ var language = {
         contactnav: "Contact me",
         lang: "Switch to German",
         //index.html
-        welcometitle: "Hello Internet!",
-        welcome1: "I'm Malik, some guy on the web who's learning to code.",
-        welcome2: "Welcome to my personal website. Here you can find out more about me and my projects! Thanks for stopping by. :)",
+        welcometitle: "Hey!",
+        welcome1: "My name is Malik and you have just strayed into my personal little corner of the Internet.",
+        welcome2: "Welcome, take a look around, feel at home.",
         //aboutme.html
         aboutmetitle: "About me:",
-        aboutme1: "Hey, even after almost two decades on this planet I don't know exactly what to write about myself in these 'About Me's. But I'll give it a try. :)",
-        aboutme2: "So I'm very interested in everything that has to do with computers. I use Linux and am currently learning to code. Away from the computer, I like to meet up with friends and listen to a lot of music. Lately I've been listening mainly to techno",
+        aboutme1: "Even after two decades on this planet, I never quite know what to write in these 'About Me' posts. ",
+        aboutme2: "I'm currently learning programming, and I'm generally very interested in everything that has to do with computers.",
         aboutme3: "Last but not least. I love cats and even have two of these weirdos.",
         aboutmebutton1: "Cats",
         aboutmebutton2: "Linux",
         aboutmebutton3: "Top 10 Techno",
+        amth1: "What I like:",
+        amth2: "What I don't like:",
+        amtd1: "Computer",
+        amtd2: "Cars",
+        amtd3: "Linux",
+        amtd4: "Windows",
+        amtd5: "Cats",
+        amtd6: "Wasps",
+        amtd7: "Tolerance",
+        amtd8: "Toxic people",
+        amtd9: "Techno",
+        amtd10: "Schlager music",
+        amtd11: "Talking & chatting",
         //projects.html
         projectstitle: "Coming Soon!",
         projects: "Nothing here yet. :)",
@@ -71,17 +84,30 @@ var language = {
         contactnav: "Kontakt",
         lang: "Wechseln zu Englisch",
         //index.html
-        welcometitle: "Hallo Internet!",
-        welcome1: "Ich bin Malik, ein Typ aus dem Internet, der programmieren lernt.",
-        welcome2: "Willkommen auf meiner persönlichen Website. Hier kannst du mehr über mich und meine Projekte erfahren! Danke fürs Vorbeischauen :)",
+        welcometitle: "Hey!",
+        welcome1: "Mein Name ist Malik und du hast dich soeben in meine Persönliche kleine Ecke im Internet verirrt.",
+        welcome2: "Willkommen, schau dich um, fühl dich wie zu Hause.",
         //aboutme.html
         aboutmetitle: "Über mich:",
-        aboutme1: "Hey, selbst nach fast zwei Jahrzehnten auf diesem Planeten weiß ich nicht genau, was ich in diesen 'Über mich's überhaupt schreiben soll. Aber ich werde es versuchen :)",
-        aboutme2: "Ich interessiere mich also sehr für alles, was mit Computern zu tun hat. Ich benutze Linux und lerne gerade programmieren. Abseits des Computers treffe ich mich gerne mit Freunden und höre viel Musik. In letzter Zeit höre ich vor allem Techno",
+        aboutme1: "Selbst nach zwei Jahrzehnten auf diesem Planeten weiß ich nie so ganz, was ich in solchen 'Über mich's schreiben soll.",
+        aboutme2: "Ich lerne im Moment Programmieren und habe allgemein großes Interesse an allem möglichen, was mit Computern zu tun hat.",
         aboutme3: "Zu guter Letzt, Ich liebe Katzen und habe sogar zwei von diesen Spinnern.",
         aboutmebutton1: "Katzen",
         aboutmebutton2: "Linux",
         aboutmebutton3: "Top 10 Techno",
+        amth1: "Was ich mag:",
+        amth2: "Was ich nicht mag:",
+        amtd1: "Computer",
+        amtd2: "Autos",
+        amtd3: "Linux",
+        amtd4: "Windows",
+        amtd5: "Katzen",
+        amtd6: "Wespen",
+        amtd7: "Toleranz",
+        amtd8: "Toxische Leute",
+        amtd9: "Techno",
+        amtd10: "Schlagermusik",
+        amtd11: "Labern & Chatten",
         //projects.html
         projectstitle: "Kommt bald!",
         projects: "Noch ist hier nichts :)",
@@ -153,6 +179,19 @@ if(isGerman===true) {
         aboutmebutton1.textContent = language.ger.aboutmebutton1;
         aboutmebutton2.textContent = language.ger.aboutmebutton2;
         aboutmebutton3.textContent = language.ger.aboutmebutton3;
+        amth1.textContent = language.ger.amth1;
+        amth2.textContent = language.ger.amth2;
+        amtd1.textContent = language.ger.amtd1;
+        amtd2.textContent = language.ger.amtd2;
+        amtd3.textContent = language.ger.amtd3;
+        amtd4.textContent = language.ger.amtd4;
+        amtd5.textContent = language.ger.amtd5;
+        amtd6.textContent = language.ger.amtd6;
+        amtd7.textContent = language.ger.amtd7;
+        amtd8.textContent = language.ger.amtd8;
+        amtd9.textContent = language.ger.amtd9;
+        amtd10.textContent = language.ger.amtd10;
+        amtd11.textContent = language.ger.amtd11;
     }
     //projects.html
     else if(window.location.href.indexOf("projects") > -1) {
@@ -230,6 +269,19 @@ else{
         aboutmebutton1.textContent = language.eng.aboutmebutton1;
         aboutmebutton2.textContent = language.eng.aboutmebutton2;
         aboutmebutton3.textContent = language.eng.aboutmebutton3;
+        amth1.textContent = language.eng.amth1;
+        amth2.textContent = language.eng.amth2;
+        amtd1.textContent = language.eng.amtd1;
+        amtd2.textContent = language.eng.amtd2;
+        amtd3.textContent = language.eng.amtd3;
+        amtd4.textContent = language.eng.amtd4;
+        amtd5.textContent = language.eng.amtd5;
+        amtd6.textContent = language.eng.amtd6;
+        amtd7.textContent = language.eng.amtd7;
+        amtd8.textContent = language.eng.amtd8;
+        amtd9.textContent = language.eng.amtd9;
+        amtd10.textContent = language.eng.amtd10;
+        amtd11.textContent = language.eng.amtd11;
     }
     //projects.html
     else if(window.location.href.indexOf("projects") > -1) {
