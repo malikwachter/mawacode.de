@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>mawacode.de</title>  <link href="css/style.css" rel="stylesheet" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="webicons/logo.png">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>mawacode.de</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="webicons/logo.png">
+  </head>
 
-<body>
+  <body>
 
-  <div class="container">
-    <div class="navbar">
-      <img src="webicons/logo.png" class="logo">
-      <nav>
-        <ul id="menuList">
-          <li><a href="index.html" id="homenav"></a></li>
-          <li><a href="aboutme.html" id="aboutmenav" class="activeTab"></a></li>
-          <li><a href="projects.html" id="projectsnav"></a></li>
-          <li><a href="contactme.html" id="contactnav"></a></li>
-          <li><a onclick="langChange()" id="lang"></a></li>
-        </ul>
-      </nav>
-      <div class="menu-icon">
-        <a onclick="langChange()" id="lang2"></a>
-        <img src="webicons/menu.png" onclick="togglemenu()">
+    <div class="container">
+      <div class="navbar">
+        <img src="webicons/logo.png" class="logo">
+        
+        <nav>
+          <ul id="menuList">
+            <li><a href="index.html" id="homenav"></a></li>
+            <li><a href="aboutme.html" id="aboutmenav" class="activeTab"></a></li>
+            <li><a href="projects.html" id="projectsnav"></a></li>
+            <li><a href="contactme.html" id="contactnav"></a></li>
+            <li><a onclick="langChange()" id="lang"></a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-icon">
+          <a onclick="langChange()" id="lang2"></a>
+          <img src="webicons/menu.png" onclick="togglemenu()">
+        </div>
       </div>
-    </div>
-    <div class="content">
-      <div class="row">
-        <div class="col-1">
+
+      <div class="content">
+        <div class="row">
+          <div class="col-1">
             <h1 id="aboutmetitle"></h1>
             <h2 id="aboutme1"></h2>
             <br>
@@ -42,51 +46,51 @@
               <li><a href="aboutme/linux.html" id="aboutmebutton2"></a></li>
               <li><a href="aboutme/techno.html" id="aboutmebutton3"></a></li>
             </ul>
-        </div>
-        <div class="col-2">
-          <table>
-            <tr>
-              <th id="amth1"></th>
-              <th id="amth2"></th>
-            </tr>
-            <tr>
-              <td id="amtd1"></td>
-              <td id="amtd2"></td>
-            </tr>
-            <tr>
-              <td id="amtd3"></td>
-              <td id="amtd4"></td>
-            </tr>
-            <tr>
-              <td id="amtd5"></td>
-              <td id="amtd6"></td>
-            </tr>
-            <tr>
-              <td id="amtd7"></td>
-              <td id="amtd8"></td>
-            </tr>
-            <tr>
-              <td id="amtd9"></td>
-              <td id="amtd10"></td>
-            </tr>
-            <tr>
-              <td id="amtd11"></td>
-            </tr>
-          </table> 
+          </div>
+
+          <div class="col-2">
+            <table>
+              <tr>
+                <th id="amth1"></th>
+                <th id="amth2"></th>
+              </tr>
+              <tr>
+                <td id="amtd1"></td>
+                <td id="amtd2"></td>
+              </tr>
+              <tr>
+                <td id="amtd3"></td>
+                <td id="amtd4"></td>
+              </tr>
+              <tr>
+                <td id="amtd5"></td>
+                <td id="amtd6"></td>
+              </tr>
+              <tr>
+                <td id="amtd7"></td>
+                <td id="amtd8"></td>
+              </tr>
+              <tr>
+                <td id="amtd9"></td>
+                <td id="amtd10"></td>
+              </tr>
+              <tr>
+                <td id="amtd11"></td>
+              </tr>
+            </table> 
+          </div>
         </div>
       </div>
+
+      <div class="socialmedia">
+        <a href="https://feddit.de/u/mawacode"><img src="webicons/lemmy.png"></a>
+        <a rel="me" href="https://hessen.social/@mawacode"><img src="webicons/mastodon.png"></a>
+        <a href="https://github.com/malikwachter"><img src="webicons/GitHub.png"></a>
+      </div>
     </div>
-    <div class="socialmedia">
-      <a href="https://feddit.de/u/mawacode"><img src="webicons/lemmy.png"></a>
-      <a rel="me" href="https://hessen.social/@mawacode"><img src="webicons/mastodon.png"></a>
-      <a href="https://github.com/malikwachter"><img src="webicons/GitHub.png"></a>
-    </div>
 
-  </div>
+    <script src="js/lang.js"></script>
 
-  <script src="js/lang.js"></script>
-
-
-</body>
+  </body>
 
 </html>
