@@ -6,7 +6,8 @@ var language = {
         aboutmenav: "About Me",
         projectsnav: "Projects",
         contactnav: "Contact me",
-        lang: "Switch to German",
+        lang: "🇩🇪",
+        lang2: "🇩🇪",
         //index.html
         welcometitle: "Hey!",
         welcome1: "My name is Malik and you have just strayed into my personal little corner of the Internet.",
@@ -82,7 +83,8 @@ var language = {
         aboutmenav: "Über Mich",
         projectsnav: "Projekte",
         contactnav: "Kontakt",
-        lang: "Wechseln zu Englisch",
+        lang: "🇬🇧",
+        lang2: "🇬🇧",
         //index.html
         welcometitle: "Hey!",
         welcome1: "Mein Name ist Malik und du hast dich soeben in meine Persönliche kleine Ecke im Internet verirrt.",
@@ -164,6 +166,7 @@ if(isGerman===true) {
     projectsnav.textContent = language.ger.projectsnav;
     contactnav.textContent = language.ger.contactnav;
     lang.textContent = language.ger.lang;
+    lang2.textContent = language.ger.lang2;
     //index.html
     if (window.location.pathname == '/' || window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.ger.welcometitle;
@@ -254,6 +257,7 @@ else{
     projectsnav.textContent = language.eng.projectsnav;
     contactnav.textContent = language.eng.contactnav;
     lang.textContent = language.eng.lang;
+    lang2.textContent = language.eng.lang2;
     //index.html
     if (window.location.pathname == '/' || window.location.href.indexOf("index") > -1) {
         welcometitle.textContent = language.eng.welcometitle;

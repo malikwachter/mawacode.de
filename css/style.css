@@ -36,11 +36,7 @@
 }
 
 .menu-icon{
-    width: 30px;
-    cursor: pointer;
     display: none;
-    background-color: #e2de84;
-    padding: 10px;
 }
 
 nav{
@@ -65,6 +61,13 @@ nav ul li a{
 nav ul li a:hover{
     color: #ecfeaa;
     cursor: pointer;
+}
+
+#lang{
+    font-size: 225%;
+    position: absolute;
+    margin-top: -0.9em;
+    font-style: normal; 
 }
 
 .activeTab{
@@ -209,6 +212,7 @@ table tr td{
 
 @media only screen and (max-width:900px){
 
+
     nav ul{
         width: 100%;
         position: absolute;
@@ -232,8 +236,19 @@ table tr td{
     }
 
     .menu-icon{
-        display: block;
+        display: inline;
+        width: 5em;
         margin-right: 4%;
+    }
+
+    .menu-icon a{
+        font-size: 200%;
+        margin-right: 5%;
+    }
+
+    .menu-icon img{
+        width: 30px;
+        cursor: pointer;
     }
 
     #menuList{
