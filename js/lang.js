@@ -38,7 +38,7 @@ var language = {
         projects: "Nothing here yet. :)",
         //contactme.html
         contacttitle: "Contact",
-        contact: "Email: malik.wachter[at]mawacode.de",
+        contact: "Email: contact[at]mawacode.de",
         //aboutme/cats.html
         catstitle: "My Cats!",
         cats: "The white cat is called Percy and the black and white cat is called Mailo.",
@@ -115,7 +115,7 @@ var language = {
         projects: "Noch ist hier nichts :)",
         //contactme.html
         contacttitle: "Kontakt",
-        contact: "Email: malik.wachter[at]mawacode.de",
+        contact: "Email: contact[at]mawacode.de",
         //aboutme/cats.html
         catstitle: "Meine Katzen!",
         cats: "Der weiße Kater heißt Percy und der schwarz-weiße Kater heißt Mailo.",
