@@ -212,6 +212,9 @@ table tr td{
 
 @media only screen and (max-width:900px){
 
+    .navbar{
+        max-height: 1.5em;
+    }
 
     nav ul{
         width: 100%;
@@ -237,17 +240,17 @@ table tr td{
 
     .menu-icon{
         display: inline;
-        width: 5em;
+        width: 7em;
         margin-right: 4%;
     }
 
     .menu-icon a{
-        font-size: 200%;
-        margin-right: 5%;
+        font-size: 300%;
+        margin-right: 10%;
     }
 
     .menu-icon img{
-        width: 30px;
+        width: 45px;
         cursor: pointer;
     }
 
