@@ -255,6 +255,7 @@ table tr td{
     .menu-icon a{
         font-size: 300%;
         margin-right: 10%;
+        cursor: pointer;
     }
 
     .menu-icon img{
