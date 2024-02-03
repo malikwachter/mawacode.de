@@ -155,11 +155,11 @@ var language = {
     }
 };
 
-//get isGerman state from localStorage
-var isGerman = localStorage.getItem("isGerman") === "true";
+//get isEnglish state from localStorage
+var isEnglish = localStorage.getItem("isEnglish") === "true";
 
 //inserting the german strings:
-if(isGerman===true) {
+if(isEnglish===false) {
     //nav
     homenav.textContent = language.ger.homenav;
     aboutmenav.textContent = language.ger.aboutmenav;
@@ -343,11 +343,11 @@ else{
 
 
 
-//invert isGerman bool on click of language button
+//invert isEnglish bool on click of language button
 function langChange() {
-    isGerman = !isGerman;
-    localStorage.setItem("isGerman", isGerman);
-    console.log(isGerman);
+    isEnglish = !isEnglish;
+    localStorage.setItem("isEnglish", isEnglish);
+    console.log(isEnglish);
     window.location.reload();
 }
 
