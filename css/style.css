@@ -353,6 +353,11 @@ table tr td{
         margin: 1%;
     }
 
+    .popupContent{
+        font-size: 50%;
+        margin-top: 50px;
+    }
+
     table{
         margin: 1%;
     }
