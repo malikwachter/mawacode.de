@@ -1,3 +1,15 @@
+
+
+var fullpic = document.getElementById("fullpic")
+
+if(window.location.href.indexOf("desktop") > -1){
+  fullpic.innerHTML+="<img src= 'pics/desktop-fullres.png'>";
+}
+if(window.location.href.indexOf("laptop") > -1){
+  fullpic.innerHTML+="<img src= 'pics/laptop-fullres.png'>";
+}
+
+
 // Popup on Contact page
 var Popup = document.getElementById("myPopup");
 var btn = document.getElementById("popupButton");

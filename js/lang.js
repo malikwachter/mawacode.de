@@ -50,11 +50,13 @@ var language = {
         linuxli3: "2021 July - KDE Neon",
         linuxli4: "2022 February - Fedora",
         linuxli5: "2022 June - Nobara",
-        linuxli6: "Currently Fedora and Nobara",
+        linuxli6: "2024 February - Arch Linux",
+        linuxli7: "Currently Nobara and Arch",
         linux2: "Desktop: Nobara Linux",
-        linux2_2: "Laptop: Fedora Linux",
+        linux2_2: "Laptop: Arch Linux",
+        linuxclick1: "Click image for complete screenshot",
+        linuxclick2: "Click image for complete screenshot",
         linux3: "Distros I've only played around with once:",
-        linuxli7: "Arch Linux",
         linuxli8: "Artix Linux",
         linuxli9: "AntiX",
         linuxli10: "TailsOS",
@@ -127,11 +129,13 @@ var language = {
         linuxli3: "2021 Juli - KDE Neon",
         linuxli4: "2022 Februar - Fedora",
         linuxli5: "2022 Juni - Nobara",
-        linuxli6: "Aktuell Fedora und Nobara",
+        linuxli6: "2024 Februar - Arch Linux",
+        linuxli7: "Aktuell Nobara und Arch",
         linux2: "Desktop: Nobara Linux",
-        linux2_2: "Laptop: Fedora Linux",
+        linux2_2: "Laptop: Arch Linux",
+        linuxclick1: "Bild anklicken für kompletten screenshot",
+        linuxclick2: "Bild anklicken für kompletten screenshot",
         linux3: "Distros mit dennen ich nurmal rumgespielt habe:",
-        linuxli7: "Arch Linux",
         linuxli8: "Artix Linux",
         linuxli9: "AntiX",
         linuxli10: "TailsOS",
@@ -223,6 +227,8 @@ if(isEnglish===false) {
         linuxli6.textContent = language.ger.linuxli6;
         linux2.textContent = language.ger.linux2;
         linux2_2.textContent = language.ger.linux2_2;
+        linuxclick1.textContent = language.ger.linuxclick1;
+        linuxclick2.textContent = language.ger.linuxclick2;
         linux3.textContent = language.ger.linux3;
         linuxli7.textContent = language.ger.linuxli7;
         linuxli8.textContent = language.ger.linuxli8;
@@ -314,6 +320,8 @@ else{
         linuxli6.textContent = language.eng.linuxli6;
         linux2.textContent = language.eng.linux2;
         linux2_2.textContent = language.eng.linux2_2;
+        linuxclick1.textContent = language.eng.linuxclick1;
+        linuxclick2.textContent = language.eng.linuxclick2;
         linux3.textContent = language.eng.linux3;
         linuxli7.textContent = language.eng.linuxli7;
         linuxli8.textContent = language.eng.linuxli8;
