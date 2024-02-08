@@ -37,14 +37,13 @@
 }
 
 .logo {
-    width: 180px;
-    margin-top: 3em;
+    width: 160px;
+
     margin-left: 8%;
     position: absolute;
-    transform: rotate(-5deg);
     backdrop-filter: blur(10px) saturate(100%);
     -webkit-backdrop-filter: blur(10px) saturate(100%);
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .menu-icon{
@@ -390,8 +389,7 @@ table tr td{
 
     .logo{
         margin-left: 4%;
-        width: 150px;
-        margin-top: 1em;
+        width: 190px;
         z-index: 4;
     }
 
