@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container{
@@ -28,7 +28,6 @@
     align-items: center;
     box-shadow: 5px 5px 5px;
     padding: 30px 0;
-    
     backdrop-filter: blur(10px) saturate(100%);
     -webkit-backdrop-filter: blur(10px) saturate(100%);
     background-color: rgba(30, 30, 30, 0.75);
@@ -38,7 +37,7 @@
 
 .logo {
     width: 190px;
-    margin-top: 5em;
+    margin-top: 3.5em;
     margin-left: 8%;
     position: absolute;
     backdrop-filter: blur(10px) saturate(100%);
@@ -62,15 +61,16 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #bbadbe;
     font-size: 120%;
     text-decoration: none;
     padding-left: 20px;
     font-style: italic; 
+
 }
 
 nav ul li a:hover{
-    color: #aaaaaa;
+    color: #af83b9;
     cursor: pointer;
 }
 
@@ -91,15 +91,16 @@ nav ul li a:hover{
 }
 
 h1{
-    color: white;
+    color: #bbadbe;
 }
 
 h2{
-    color: white;
+    color: #bbadbe;
 }
 
 p{
-    color: white;
+    color: #bbadbe;
+    font-size: 100%;
 }
 
 .row{
@@ -121,7 +122,7 @@ p{
     border-radius: 0 12px 0 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 
-    z-index: 2;
+    z-index: 1;
 }
 
 .col-2{
@@ -167,14 +168,14 @@ p{
 }
 
 #popupButton:hover{
-    color: #aaaaaa;
+    color: #af83b9;
     cursor: pointer;
 }
 
 .Popup {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -188,7 +189,7 @@ p{
     margin: auto;
     padding: 20px;
     width: 80%;
-    color: white;
+    color: #bbadbe;
 
     backdrop-filter: blur(10px) saturate(100%);
     -webkit-backdrop-filter: blur(10px) saturate(100%);
@@ -198,14 +199,14 @@ p{
 }
 
 .close {
-    color: white;
+    color: #bbadbe;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
 .close:hover, .close:focus {
-    color: #aaaaaa;
+    color: #af83b9;
     text-decoration: none;
     cursor: pointer;
 }
@@ -247,7 +248,7 @@ p{
 }
 
 #aboutmelinks li a{
-    color: white;
+    color: #bbadbe;
     font-size: 100%;
     padding: 5px;
     text-decoration: none;
@@ -261,7 +262,7 @@ p{
 }
 
 #aboutmelinks li a:hover{
-    color: #aaaaaa;
+    color: #af83b9;
     cursor: pointer;
 }
 
@@ -272,7 +273,7 @@ p{
 }
 
 .technolist li{
-    color: white;
+    color: #bbadbe;
     font-size: 100%;
     padding: 5px;
     margin: 10px;
@@ -282,7 +283,7 @@ p{
 
     backdrop-filter: blur(10px) saturate(100%);
     -webkit-backdrop-filter: blur(10px) saturate(100%);
-    background-color: rgba(30, 30, 30, 0.75);
+    background-color: rgba(50, 50, 50, 0.75);
     border-radius: 0 12px 0 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -300,7 +301,7 @@ table{
 }
 
 table tr th{
-    color: white;
+    color: #bbadbe;
     font-size: 100%;
     padding: 5px;
 
@@ -312,7 +313,7 @@ table tr th{
 }
 
 table tr td{
-    color: white;
+    color: #bbadbe;
     font-size: 100%;
     padding: 5px;
 
@@ -395,7 +396,7 @@ table tr td{
 
     .row{
         flex-direction: column;
-        margin: 50px 0
+        margin: 50px 0;
     }
 
     .col-2{
@@ -416,6 +417,7 @@ table tr td{
     .col-1{
         flex-basis: 100%;
         margin-top: 2em;
+        z-index: 1;
     }
 
     #aboutmelinks li{
