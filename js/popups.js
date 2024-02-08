@@ -1,5 +1,5 @@
 
-
+//Full res picture site
 var fullpic = document.getElementById("fullpic")
 
 if(window.location.href.indexOf("desktop") > -1){
