@@ -133,6 +133,11 @@ p{
     font-size: 100%;
 }
 
+ul li{
+    color: #bbadbe;
+    margin-left: 1em;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -294,6 +299,7 @@ p{
 #aboutmelinks li a:hover{
     color: #af83b9;
     cursor: pointer;
+    background-color: rgba(50, 50, 50, 0.75);
 }
 
 #catpics img{
@@ -359,6 +365,30 @@ table tr td{
     width: 100%;
     border-radius: 12px;
 }
+
+.projectsbox a{
+    border-radius: 0 12px 0 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 2%;
+    text-align: center;
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(30, 30, 30, 0.75);
+}
+
+.projectsbox a{
+    color: #bbadbe;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.projectsbox a:hover{
+    cursor: pointer;
+    color: #af83b9;
+    background-color: rgba(50, 50, 50, 0.75);
+}
+
+
 
 @media only screen and (max-width:900px){
 

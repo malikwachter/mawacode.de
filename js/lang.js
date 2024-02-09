@@ -34,8 +34,8 @@ var language = {
         amtd10: "Schlager music",
         amtd11: "Talking & chatting",
         //projects.html
-        projectstitle: "Coming Soon!",
-        projects: "Nothing here yet. :)",
+        projectstitle: "My Projects:",
+        project1: "mawacode.de",
         //contactme.html
         contacttitle: "Contact",
         contact: "Email: contact[at]mawacode.de",
@@ -113,8 +113,8 @@ var language = {
         amtd10: "Schlagermusik",
         amtd11: "Labern & Chatten",
         //projects.html
-        projectstitle: "Kommt bald!",
-        projects: "Noch ist hier nichts :)",
+        projectstitle: "Meine Projekte:",
+        project1: "mawacode.de",
         //contactme.html
         contacttitle: "Kontakt",
         contact: "Email: contact[at]mawacode.de",
@@ -201,9 +201,9 @@ if(isEnglish===false) {
         amtd11.textContent = language.ger.amtd11;
     }
     //projects.html
-    else if(window.location.href.indexOf("projects") > -1) {
+    else if(window.location.href.indexOf("projects.html") > -1) {
         projectstitle.textContent = language.ger.projectstitle;
-        projects.textContent = language.ger.projects;
+        project1.textContent = language.ger.project1;
     }
     //contactme.html
     else if(window.location.href.indexOf("contactme") > -1) {
@@ -294,9 +294,9 @@ else{
         amtd11.textContent = language.eng.amtd11;
     }
     //projects.html
-    else if(window.location.href.indexOf("projects") > -1) {
+    else if(window.location.href.indexOf("projects.html") > -1) {
         projectstitle.textContent = language.eng.projectstitle;
-        projects.textContent = language.eng.projects;
+        project1.textContent = language.eng.project1;
     }
     //contactme.html
     else if(window.location.href.indexOf("contactme") > -1) {
@@ -360,20 +360,3 @@ function langChange() {
 }
 
 
-//menu Script
-var menuList = document.getElementById("menuList");
-
-menuList.style.maxHeight = "0px";
-
-function togglemenu(){
-
-  if(menuList.style.maxHeight == "0px")
-    {
-      menuList.style.maxHeight = "200px";
-    }
-  else
-    {
-      menuList.style.maxHeight = "0px";
-    }
-
-}
