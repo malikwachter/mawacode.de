@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>mawacode.de</title>
+    <link href="../../css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../webicons/logo.png">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <noscript>
+        <div id="no-script">
+          <h1>Warning!</h1>
+          <p>You have JavaScript deactivated, silly ;) This site doesn't work properly without JavaScript.<br>All my code is Open-Source, check it out if you want to know what script my site uses.</p>
+          <br>
+          <a href="https://github.com/malikwachter/mawacode.de/tree/main/js">Link to the source code</a>
+        </div>
+      </noscript>
+
+      <div class="navbar">
+        <img src="../../webicons/logo.png" class="logo">
+
+        <nav>
+          <ul id="menuList">
+            <li><a href="../../index.html" id="homenav"></a></li>
+            <li><a href="../../aboutme.html" id="aboutmenav"></a></li>
+            <li><a href="../../projects.html" id="projectsnav" class="activeTab"></a></li>
+            <li><a href="../../contactme.html" id="contactnav"></a></li>
+            <li><a onclick="langChange()" id="lang"></a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-icon">
+          <a onclick="langChange()" id="lang2"></a>
+          <img src="../../webicons/menu.png" onclick="togglemenu()">
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="row">
+          <div class="col-1">
+            <h1>Changelog of my personal website</h1>
+            <p>(Only available on english/Nur auf Englisch verfügbar)</p>
+            <br>
+            <h2>2024-02-09 - NoScript</h2>
+            <ul>
+                <li>Redesigned error message if JavaScript is deactivated</li>
+                <li>Add projectpage for this website</li>
+                <li>Add changelog page for this website</li>
+            </ul>
+            <br>
+            <h2>2024-02-08 - Complete redesgin</h2>
+            <ul>
+                <li>Change all colors</li>
+                <li>Replace logo</li>
+                <li>Add blur effect</li>
+                <li>Add wallpaper</li>
+            </ul>
+            <br>
+            <h2>2024-02-05 - Info Update</h2>
+            <ul>
+                <li>Update info on linux about me page</li>
+            </ul>
+            <br>
+            <h2>2024-02-04 - Encryption</h2>
+            <ul>
+                <li>Add PGP Key to contact page</li>
+            </ul>
+            <br>
+            <h2>2024-02-03 - Cat on frontpage</h2>
+            <ul>
+                <li>Add cat on frontpage</li>
+                <li>Add table of stuff I like in about me page</li>
+                <li>Replace text from language change button with icon</li>
+                <li>Change contact E-Mail</li>
+                <li>Remove unused placeholder picture from projects page</li>
+                <li>Switch default language to german</li>
+            </ul>
+            <br>
+            <h2>2024-02-02 - New nav</h2>
+            <ul>
+                <li>Change nav style</li>
+                <li>Add logo</li>
+                <li>Chnage text</li>
+            </ul>
+            <br>
+            <h2>2024-01-27 - Translation feature</h2>
+            <ul>
+                <li>Add button to translate the entire page</li>
+                <li>Add error text if JavaScript is deactivated</li>
+                <li>Fix typos</li>
+            </ul>
+            <br>
+            <h2>2024-01-24 - Source</h2>
+            <ul>
+                <li>Add missing source of xkcd comic on contact page</li>
+            </ul>
+            <br>
+            <h2>2024-01-23 - Resposive Design</h2>
+            <ul>
+                <li>Add resposive design</li>
+                <li>Stick social media links to bottom of page</li>
+                <li>Scale down cat picture quality</li>
+                <li>Fix broken cat pictures in chrome</li>
+                <li>Fix burgermenu color</li>
+                <li>Fix typos</li>
+            </ul>
+            <br>
+            <h2>2024-01-22 - First git commit</h2>
+            <ul>
+                <li>The entire website is new ;)</li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+          </div>
+        </div>
+        
+        <div class="socialmedia">
+          <a href="https://feddit.de/u/mawacode"><img src="../../webicons/lemmy.png"></a>
+          <a rel="me" href="https://hessen.social/@mawacode"><img src="../../webicons/mastodon.png"></a>
+          <a href="https://github.com/malikwachter"><img src="../../webicons/GitHub.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../js/lang.js"></script>
+    <script src="../../js/menu.js"></script>
+
+  </body>
+
+</html>

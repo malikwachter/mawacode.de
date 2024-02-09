@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>mawacode.de</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/projects.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../webicons/logo.png">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <noscript>
+        <div id="no-script">
+          <h1>Warning!</h1>
+          <p>You have JavaScript deactivated, silly ;) This site doesn't work properly without JavaScript.<br>All my code is Open-Source, check it out if you want to know what script my site uses.</p>
+          <br>
+          <a href="https://github.com/malikwachter/mawacode.de/tree/main/js">Link to the source code</a>
+        </div>
+      </noscript>
+
+      <div class="navbar">
+        <img src="../webicons/logo.png" class="logo">
+
+        <nav>
+          <ul id="menuList">
+            <li><a href="../index.html" id="homenav"></a></li>
+            <li><a href="../aboutme.html" id="aboutmenav"></a></li>
+            <li><a href="../projects.html" id="projectsnav" class="activeTab"></a></li>
+            <li><a href="../contactme.html" id="contactnav"></a></li>
+            <li><a onclick="langChange()" id="lang"></a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-icon">
+          <a onclick="langChange()" id="lang2"></a>
+          <img src="../webicons/menu.png" onclick="togglemenu()">
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="row">
+          <div class="col-1">
+            <h1 id="personalwebsitetitle"></h1>
+            <br>
+            <p id="personalwebsite1"></p><br>
+            <ul id="aboutmelinks">
+                <li><a href="personalwebsite/changelog.html" id="personalwebsitebutton1"></a></li>
+                <li><a href="https://github.com/malikwachter/mawacode.de">GitHub</a></li>
+            </ul>
+            <br>
+            <h1 id="personalwebsitetitle2"></h1>
+            <br>
+            <h2 id="personalwebsite2"></h2>
+            <div class="websitepics">
+                <div class="desktoptext">
+                    <br>
+                    <p id="personalwebsite3"></p>
+                    <br>
+                    <img class="desktoppic" src="../pics/oldestscreenshot-desktop.png">
+                </div>
+            </div>
+            <br>
+            <h2 id="personalwebsite4"></h2>
+            <div class="websitepics">
+                <img class="mobilepic" src="../pics/firstcommit-mobile.png">
+                <div class="desktoptext">
+                    <br>
+                    <p id="personalwebsite5"></p>
+                    <br>
+                    <img class="desktoppic" src="../pics/firstcommit-desktop.png">
+                </div>
+            </div>
+            <br>
+            <h2 id="personalwebsite6"></h2>
+            <div class="websitepics">
+                <img class="mobilepic" src="../pics/firstworkingmobilescreen.png">
+                <div class="desktoptext">
+                    <br>
+                    <p id="personalwebsite7"></p>
+                    <br>
+                    <img class="desktoppic" src="../pics/firstworkingmobilescreen-desktop.png">
+                </div>
+            </div>
+            <br>
+            <h2 id="personalwebsite8"></h2>
+            <div class="websitepics">
+                <img class="mobilepic" src="../pics/mobile-translation.GIF">
+                <div class="desktoptext">
+                    <br>
+                    <p id="personalwebsite9"></p>
+                    <br>
+                    <img class="desktoppic" src="../pics/desktop-tanslation.GIF">
+                </div>
+            </div>
+            <br>
+            <h2 id="personalwebsite10"></h2>
+            <div class="websitepics">
+                <img class="mobilepic" src="../pics/firstrestyle-mobile.png">
+                <div class="desktoptext">
+                    <br>
+                    <p id="personalwebsite11"></p>
+                    <br>
+                    <img class="desktoppic" src="../pics/firstrestyle-desktop.png">
+                </div>
+            </div>
+            <br>
+            <h2 id="personalwebsite12"></h2>
+            <div class="websitepics">
+                <img class="mobilepic" src="../pics/secondrestyle-mobile.png">
+                <div class="desktoptext">
+                    <br>
+                    <p id="personalwebsite13"></p>
+                    <br>
+                    <img class="desktoppic" src="../pics/secondrestyle-desktop.png">
+                </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+          </div>
+        </div>
+        
+        <div class="socialmedia">
+          <a href="https://feddit.de/u/mawacode"><img src="../webicons/lemmy.png"></a>
+          <a rel="me" href="https://hessen.social/@mawacode"><img src="../webicons/mastodon.png"></a>
+          <a href="https://github.com/malikwachter"><img src="../webicons/GitHub.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/lang.js"></script>
+    <script src="../js/projectslang.js"></script>
+    <script src="../js/menu.js"></script>
+
+  </body>
+
+</html>
